@@ -55,9 +55,9 @@ h2 {
   width:fit-content;
   height: 5px;
   margin: auto;
-  font-size: 2em;
+  font-size: 2.5em;
   text-align: center;
-  font-weight: 500;
+  font-weight: 700;
   padding-bottom: 50px;
 }
 .under-line {
@@ -72,7 +72,7 @@ h4 {
   width: 75%;
   margin: auto;
   text-align: center;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 25px;
   padding-bottom: 40px;
 }

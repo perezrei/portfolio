@@ -26,12 +26,12 @@
             website: "https://hyf-connect.herokuapp.com/"  
           },
           {
-            title:"Project Number 2",
+            title:"Reinaldo Perez Website",
             description:"This is the second example of a project for my portfolio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sagittis, orci vitae fringilla vestibulum, massa dui malesuada neque, id viverra massa est sed nisi.",
             technologies:"Vue3js, CSS", 
             date:"May 2022",
-            github: "https://github.com/electron/electron",
-            website: "https://google.com/"  
+            github: "https://github.com/perezrei/portfolio",
+            website: "https://perezrei.github.io/portfolio/"  
           },
           {
             title:"Project Number 3",

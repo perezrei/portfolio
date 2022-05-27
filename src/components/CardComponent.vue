@@ -12,8 +12,8 @@
       return {
         cards: [
           {
-            "name": "Carefully use of typography",
-            "description": "Different sizes, fonts, and arrangement of the text to help increase scanability, legibility and readability. Different sizes, fonts, and arrangement of the text to help increase scanability, legibility and readability."
+            "name": "Minimalist Design Enthusiastic",
+            "description": "Minimalism aims for simplicity and objectivity. Minimalist designs tend toward more whitespace, better typography, grid layouts, and less color."
           },
           {
             "name": "Accurate selection of colors",

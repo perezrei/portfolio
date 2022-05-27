@@ -27,15 +27,15 @@
           },
           {
             title:"Reinaldo Perez Portfolio",
-            description:"This portfolio is my very first project after finishing HackYourFuture Belgium. I pretend to create, from now, one project monthly using other technologies and show them in this website",
-            technologies:"Vue3js, CSS", 
+            description:"This portfolio is my very first project after finishing my formation in HackYourFuture Belgium. I pretend to create, from now, one project monthly using other technologies and show them in this website",
+            technologies:"Vue3js, Vite, CSS", 
             date:"May 2022",
             github: "https://github.com/perezrei/portfolio",
             website: "https://perezrei.github.io/portfolio/"  
           },
           {
             title:"Project Number 3",
-            description:"This is the third example of a project for my portfolio.",
+            description:"This is the third example of a project for my portfolio. For this project I want to create a website fetching data from an API",
             technologies:"Vue3js, CSS", 
             date:"May 2022",
             github: "https://github.com/freeCodeCamp/freeCodeCamp",

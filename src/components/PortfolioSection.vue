@@ -64,7 +64,6 @@ h2 {
   height: 6px;
   width: 90px;
   background-color: var(--main-color);
-  border-radius: 5px;
   position: relative;
   top: -14px;
   right: -47px;

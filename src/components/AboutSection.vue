@@ -21,7 +21,7 @@ export default {
   data() {
     return {
       title: 'About Me',
-      subtitle: 'Coming from the world of marketing and advertising, I know the importance of offering the best user experience while respecting the clients demands. I prefer a minimalist and clean site instead of going overboard with the elements.',
+      subtitle: 'Coming from the world of marketing and advertising, I know the importance of offering the best user experience while respecting the clients demands.',
     }
   },
   components: {

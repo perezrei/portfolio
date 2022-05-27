@@ -27,7 +27,7 @@
           },
           {
             title:"Reinaldo Perez Portfolio",
-            description:"This is my first project after finishing HackYourFuture Belgium. I created it from scratch using Single Files Components, Options API in Vuejs and plain CSS",
+            description:"This portfolio is my very first project after finishing HackYourFuture Belgium. I pretend to create, from now, one project monthly using other technologies and show them in this website",
             technologies:"Vue3js, CSS", 
             date:"May 2022",
             github: "https://github.com/perezrei/portfolio",
@@ -35,7 +35,7 @@
           },
           {
             title:"Project Number 3",
-            description:"This is the third example of a project for my portfolio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sagittis, orci vitae fringilla vestibulum, massa dui malesuada neque, id viverra massa est sed nisi.",
+            description:"This is the third example of a project for my portfolio.",
             technologies:"Vue3js, CSS", 
             date:"May 2022",
             github: "https://github.com/freeCodeCamp/freeCodeCamp",
@@ -43,7 +43,7 @@
           },
           {
             title:"Project Number 4",
-            description:"This is the fourth example of a project for my portfolio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sagittis, orci vitae fringilla vestibulum, massa dui malesuada neque, id viverra massa est sed nisi.",
+            description:"This is the fourth example of a project for my portfolio.",
             technologies:"Vue3js, CSS", 
             date:"May 2022",
             github: "https://github.com/sudheerj/javascript-interview-questions",

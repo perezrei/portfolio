@@ -27,7 +27,7 @@
           },
           {
             title:"Reinaldo Perez Website",
-            description:"This is the second example of a project for my portfolio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sagittis, orci vitae fringilla vestibulum, massa dui malesuada neque, id viverra massa est sed nisi.",
+            description:"This is the first project after finishing HackYourFuture Belgium.",
             technologies:"Vue3js, CSS", 
             date:"May 2022",
             github: "https://github.com/perezrei/portfolio",
@@ -43,7 +43,7 @@
           },
           {
             title:"Project Number 4",
-            description:"This is the third example of a project for my portfolio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sagittis, orci vitae fringilla vestibulum, massa dui malesuada neque, id viverra massa est sed nisi.",
+            description:"This is the fourth example of a project for my portfolio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sagittis, orci vitae fringilla vestibulum, massa dui malesuada neque, id viverra massa est sed nisi.",
             technologies:"Vue3js, CSS", 
             date:"May 2022",
             github: "https://github.com/sudheerj/javascript-interview-questions",

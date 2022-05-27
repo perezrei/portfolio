@@ -25,7 +25,7 @@ export default {
   data() {
     return {
       title: "My Work",
-      subtitle: "I created this website from scratch using Single Files Components, Options API in Vue.js and plain CSS, the technology used in each project is explained in the correspondent one"
+      subtitle: "I created this website from scratch using Single Files Components, Options API in Vue.js and plain CSS"
     }
   }
 }

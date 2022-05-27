@@ -26,8 +26,8 @@
             website: "https://hyf-connect.herokuapp.com/"  
           },
           {
-            title:"Reinaldo Perez Website",
-            description:"This is the first project after finishing HackYourFuture Belgium.",
+            title:"Reinaldo Perez Portfolio",
+            description:"This is my first project after finishing HackYourFuture Belgium. I created it from scratch using Single Files Components, Options API in Vuejs and plain CSS",
             technologies:"Vue3js, CSS", 
             date:"May 2022",
             github: "https://github.com/perezrei/portfolio",

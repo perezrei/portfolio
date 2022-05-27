@@ -65,7 +65,7 @@ header a {
 }
 
 #desktop-menu a {
-  color: white;
+  color: #000000;
 }
 
 ul li {

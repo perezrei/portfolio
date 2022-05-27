@@ -42,20 +42,20 @@
 }
 h1 {
   font-size: 3em;
-  font-weight: 500;
+  font-weight: 700;
 }
 h1 span {
   color: var(--main-color);
-  font-weight: 500;
+  font-weight: 700;
 }
 h2 {
   font-size: 2.6em;
   padding-bottom: 25px;
-  font-weight: 500;
+  font-weight: 700;
 }
 h3 {
   margin-right: 10px;
-  font-weight: 300;
+  font-weight: 500;
 }
   .link__btn {
     display: flex;

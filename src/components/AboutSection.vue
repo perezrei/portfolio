@@ -55,7 +55,7 @@ h2 {
   width:fit-content;
   height: 5px;
   margin: auto;
-  font-size: 2.5em;
+  font-size: 2em;
   text-align: center;
   font-weight: 700;
   padding-bottom: 50px;
@@ -65,8 +65,8 @@ h2 {
   width: 90px;
   background-color: var(--main-color);
   position: relative;
-  top: -14px;
-  right: -64px;
+  top: -13px;
+  right: -67px;
 }
 h4 {
   width: 75%;

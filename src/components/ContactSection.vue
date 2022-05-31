@@ -47,7 +47,7 @@ h2 {
   margin: auto;
   font-size: 2em;
   text-align: center;
-  font-weight: 500;
+  font-weight: 700;
   padding-bottom: 50px;
 }
 .under-line {
@@ -56,7 +56,7 @@ h2 {
   background-color: var(--main-color);
   position: relative;
   top: -14px;
-  right: -42px;
+  right: -45px;
 }
 h4 {
   width: 80%;

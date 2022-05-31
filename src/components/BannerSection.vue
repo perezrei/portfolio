@@ -41,7 +41,7 @@
   padding-top: 100px;
 }
 h1 {
-  font-size: 3em;
+  font-size: 2.8em;
   font-weight: 700;
 }
 h1 span {
@@ -49,7 +49,7 @@ h1 span {
   font-weight: 700;
 }
 h2 {
-  font-size: 2.6em;
+  font-size: 2.5em;
   padding-bottom: 25px;
   font-weight: 700;
 }

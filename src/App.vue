@@ -23,15 +23,14 @@
 
 :root {
   --main-color: #ff0044;
-  /* --background-color: #0c003f; */
-  --background-color: #fff;
+  --background-color: #0c003f;
   --color-filter: invert(11%) sepia(99%) saturate(6958%) hue-rotate(338deg) brightness(101%) contrast(101%);
 }
 
 #app {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  color: #000000;
+  color: #ffffff;
   background-color: var(--background-color);
 }
 

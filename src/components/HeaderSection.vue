@@ -2,31 +2,37 @@
   <header>
     <a href="#home"><img id="brand" src="../assets/logo.svg" alt="logo" /></a>
     <nav>
-      <ul id="desktop-menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about-me">About Me</a></li>
-        <li><a href="#my-work">My Work</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div id="hamburger-icon">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </div>
-      <ul class="mobile-menu">
+      <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about-me">About Me</a></li>
         <li><a href="#my-work">My Work</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+
+    <div id="hamburger-icon" @:click="toggleMobileMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#my-work">My Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
   </header>
 </template>
 
 <script>
 export default {
-  name: "HeaderSection",
-}
+  name: "HeaderSectionTwo",
+  methods: {
+    toggleMobileMenu(menu) {
+      menu.classList.toggle("open");
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -56,7 +62,7 @@ header a {
   transition: 1s;
 }
 
-#desktop-menu {
+ul {
   list-style: none;
   height: 100%;
   display: flex;
@@ -64,8 +70,8 @@ header a {
   justify-content: space-around;
 }
 
-#desktop-menu a {
-  color: #000000;
+ul a {
+  color: #ffffff;
 }
 
 ul li {
@@ -73,22 +79,22 @@ ul li {
   font-size: 14px;
   font-weight: 500;
   margin-left: 50px;
+  border-bottom: 5px solid transparent;
 }
 
 ul li:hover {
-  transition: 0.4s;
+  transition: 0.6s;
   border-bottom: 5px solid var(--main-color);
 }
 
 #hamburger-icon {
-  margin: 25px auto 0 auto;
+  margin: auto 0;
   display: none;
   cursor: pointer;
 }
 
 #hamburger-icon div {
-  width: 33px;
-  border-radius: 5px;
+  width: 35px;
   height: 3px;
   background-color: white;
   margin: 6px 0;
@@ -118,22 +124,15 @@ ul li:hover {
 
 .mobile-menu {
   display: none;
-  background-color: var(--background-color);
   position: absolute;
-  top: 70px;
+  top: 50px;
   left: 0;
-  height: auto;
+  height: calc(100vh - 50px);
   width: 100%;
 }
 
 .mobile-menu li {
-  margin: 10px;
-  text-align: center;
-  font-size: 18px;
-}
-
-.mobile-menu a {
-  color: white;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 850px) {
@@ -141,7 +140,7 @@ ul li:hover {
     padding: 0 25px;
   }
 
-  #desktop-menu {
+  header nav {
     display: none;
   }
 
@@ -150,9 +149,9 @@ ul li:hover {
   }
 
   ul li:hover {
-  border-bottom: none;
-  background-color: #5a5a5a;
-  transition: 0.4s;
-}
+    border-bottom: none;
+    background-color: #5a5a5a;
+    transition: 0.4s;
+  }
 }
 </style>

@@ -63,7 +63,7 @@
     margin-bottom: 50px;
   }
   .project__component-container:hover {
-    background-color: #00000040;
+    background-color: #10478540;
   }
   h4 {
     padding-bottom: 10px;

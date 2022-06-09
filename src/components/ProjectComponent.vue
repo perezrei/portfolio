@@ -2,7 +2,7 @@
   <div class="project__component-container" v-for="project in projects" :key="project.title">
     <h4>{{ project.title }}</h4>
     <p>{{ project.description }}</p>
-    <p>Technologies implemented: {{ project.technologies }}</p>
+    <p>Tools and Technologies: <br> {{ project.tools }}</p>
     <p>{{ project.date }}</p>
     <div class="buttons__container">
       <a :href="project.github" target="_blank" class="github__btn">github</a>
@@ -19,35 +19,19 @@
         projects: [
           {
             title:"HYF-Connect",
-            description:"Platform where all students, alumni and coaches of HackYourFuture Belgium can share their coding experiences and profiles for new opportunities to grow. Final group-project of Class 15.",
-            technologies:"Vue3js, CSS, SQl, JWT", 
+            description:"Final group-project of HackYourFuture Belgium, Class 15. Platform where students, alumni and coaches can share their coding experiences and profiles for new opportunities. ",
+            tools:"Vue3js, CSS, Bootstrap, Nodejs, Express JS, Sequelize", 
             date:"February 2022",
             github: "https://github.com/HYF-Connect/hyf-connect",
             website: "https://hyf-connect.herokuapp.com/"  
           },
           {
-            title:"Reinaldo Perez Portfolio",
-            description:"This portfolio is my very first project after finishing my formation in HackYourFuture Belgium. I pretend to create, from now, one project monthly using other technologies and show them in this website",
-            technologies:"Vue3js, Vite, CSS", 
-            date:"May 2022",
+            title:"Reinaldo Perez Portfolio (this website)",
+            description:"This portfolio is my very first project after finishing my formation in HackYourFuture Belgium. I pretend to create and add different projects using other technologies.",
+            tools:"Vue3js, Vitejs, CSS", 
+            date:"June 2022",
             github: "https://github.com/perezrei/portfolio",
             website: "https://perezrei.github.io/portfolio/"  
-          },
-          {
-            title:"Project Number 3",
-            description:"This is the third example of a project for my portfolio. For this project I want to create a website fetching data from an API",
-            technologies:"Vue3js, CSS", 
-            date:"May 2022",
-            github: "https://github.com/freeCodeCamp/freeCodeCamp",
-            website: "https://vuejs.org/"   
-          },
-          {
-            title:"Project Number 4",
-            description:"This is the fourth example of a project for my portfolio.",
-            technologies:"Vue3js, CSS", 
-            date:"May 2022",
-            github: "https://github.com/sudheerj/javascript-interview-questions",
-            website: "https://cli.vuejs.org/"  
           }
         ]
       }

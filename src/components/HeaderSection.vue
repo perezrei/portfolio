@@ -21,6 +21,7 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
+    <div class="bottom-line"></div>
   </header>
 </template>
 
@@ -141,6 +142,14 @@ ul li:hover {
 .mobile-menu li {
   padding-top: 50px;
   font-size: 18px;
+}
+.bottom-line {
+  height: 5px;
+  width: 100%;
+  background-color: var(--main-color);
+  position: absolute;
+  left: 0;
+  top: 70px;
 }
 
 @media only screen and (max-width: 850px) {

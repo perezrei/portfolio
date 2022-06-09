@@ -36,6 +36,7 @@
 }
 .contact__content {
   width: 100%;
+  margin: 30px auto 0 auto;
 }
 .title {
   width: fit-content;
@@ -45,7 +46,7 @@ h2 {
   width:fit-content;
   height: 5px;
   margin: auto;
-  font-size: 2em;
+  font-size: 1.8em;
   text-align: center;
   font-weight: 700;
   padding-bottom: 50px;
@@ -55,21 +56,21 @@ h2 {
   width: 90px;
   background-color: var(--main-color);
   position: relative;
-  top: -14px;
-  right: -45px;
+  top: -18px;
+  right: -32px;
 }
 h4 {
   width: 80%;
-  margin: auto;
+  margin: 25px auto 0 auto;
   text-align: center;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 25px;
 }
 .contact__form {
   display: flex;
   flex-direction: column;
   width: 400px;
-  margin: 20px auto 0 auto;
+  margin: 40px auto 0 auto;
   height: auto;
   background-color: #dadada;
   border-radius: 5px;

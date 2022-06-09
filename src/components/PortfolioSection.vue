@@ -42,7 +42,7 @@ export default {
   }
 .content {
   width: 95%;
-  margin: 0 auto;
+  margin: 30px auto 0 auto;
   height: auto;
   padding-top: 70px;
   padding-bottom: 30px;
@@ -55,7 +55,7 @@ h2 {
   width: fit-content;
   height: 5px;
   margin: auto;
-  font-size: 2em;
+  font-size: 1.8em;
   text-align: center;
   font-weight: 700;
   padding-bottom: 50px;
@@ -65,14 +65,14 @@ h2 {
   width: 90px;
   background-color: var(--main-color);
   position: relative;
-  top: -14px;
-  right: -55px;
+  top: -18px;
+  right: -42px;
 }
 h4 {
   width: 75%;
   margin: auto;
   text-align: center;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 25px;
   padding-bottom: 70px;
 }

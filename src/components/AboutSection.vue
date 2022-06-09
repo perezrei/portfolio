@@ -42,7 +42,7 @@ export default {
   }
 .content {
   width: 95%;
-  margin: 0 auto;
+  margin: 30px auto 0 auto;
   height: auto;
   padding-top: 70px;
   padding-bottom: 30px;
@@ -55,7 +55,7 @@ h2 {
   width:fit-content;
   height: 5px;
   margin: auto;
-  font-size: 2em;
+  font-size: 1.8em;
   text-align: center;
   font-weight: 700;
   padding-bottom: 50px;
@@ -65,11 +65,11 @@ h2 {
   width: 90px;
   background-color: var(--main-color);
   position: relative;
-  top: -13px;
-  right: -67px;
+  top: -18px;
+  right: -51px;
 }
 h4 {
-  width: 75%;
+  width: 55%;
   margin: auto;
   text-align: center;
   font-weight: 500;
@@ -82,7 +82,7 @@ h4 {
   justify-content: center;
   margin: auto;
   width: 95%;
-  gap: 20px 100px;
+  gap: 0 100px;
 }
 @media screen and (max-width: 500px) {
   .cards__container {

@@ -54,7 +54,7 @@
     font-weight: 500;
     color: white;
     text-decoration-line: underline;
-    text-decoration-color: var(--main-color);
+    text-decoration-color: var(--magenta);
     text-decoration-thickness: 2px;
   }
   

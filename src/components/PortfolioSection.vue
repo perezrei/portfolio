@@ -38,7 +38,7 @@ export default {
   .left__bar {
     width: 5px;
     height: auto;
-    background-color: var(--main-color);
+    background-color: var(--magenta);
   }
 .content {
   width: 95%;
@@ -63,7 +63,7 @@ h2 {
 .under-line {
   height: 6px;
   width: 90px;
-  background-color: var(--main-color);
+  background-color: var(--magenta);
   position: relative;
   top: -18px;
   right: -42px;

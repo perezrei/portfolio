@@ -47,7 +47,7 @@
     margin-bottom: 50px;
   }
   .project__component-container:hover {
-    background-color: #10478540;
+    background-color: var(--dark-grey);
   }
   h4 {
     padding-bottom: 10px;
@@ -64,7 +64,7 @@
     padding-top: 25px;
   }
   .github__btn, .website__btn {
-    background-color: var(--main-color);
+    background-color: var(--magenta);
     text-decoration: none;
     color: white;
     font-size: 12px;
@@ -72,7 +72,7 @@
     width: 80px;
     padding: 7px 15px;
     margin-right: 20px;
-    border-radius: 8px;
+    border-radius: 4px;
     cursor: pointer;
   }
   .github__btn:hover, .website__btn:hover {

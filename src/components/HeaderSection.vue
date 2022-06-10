@@ -44,13 +44,13 @@ export default {
 <style scoped>
 header {
   display: flex;
-  z-index: 1;
   justify-content: space-between;
+  position: fixed;
+  z-index: 1;
   padding: 0 60px;
-  background-color: var(--background-color);
+  background-color: var(--light-grey);
   height: 70px;
   width: 100%;
-  position: fixed;
 }
 
 header a {
@@ -77,7 +77,7 @@ ul {
 }
 
 ul a {
-  color: #ffffff;
+  color: var(--dark-blue);
 }
 
 ul li {
@@ -90,7 +90,7 @@ ul li {
 
 ul li:hover {
   transition: 0.6s;
-  border-bottom: 5px solid var(--main-color);
+  border-bottom: 5px solid var(--magenta);
 }
 
 #hamburger-icon {
@@ -102,7 +102,7 @@ ul li:hover {
 #hamburger-icon div {
   width: 35px;
   height: 3px;
-  background-color: white;
+  background-color: var(--dark-blue);
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -128,8 +128,9 @@ ul li:hover {
 .open .mobile-menu {
   height: 100vh;
   width: 80%;
-  background-color: var(--main-color);
+  background-color: var(--light-grey);
   position: absolute;
+  z-index: 1;
   top: 0;
   left: 0;
   display: flex;
@@ -146,7 +147,7 @@ ul li:hover {
 .bottom-line {
   height: 5px;
   width: 100%;
-  background-color: var(--main-color);
+  background-color: var(--magenta);
   position: absolute;
   left: 0;
   top: 70px;
@@ -163,12 +164,6 @@ ul li:hover {
 
   #hamburger-icon {
     display: block;
-  }
-
-  ul li:hover {
-    border-bottom: none;
-    background-color: #5a5a5a;
-    transition: 0.4s;
   }
 }
 </style>

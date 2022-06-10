@@ -27,7 +27,7 @@ export default {
 .left__bar {
   width: 5px;
   height: 100%;
-  background-color: var(--main-color);
+  background-color: var(--magenta);
 }
 .banner__container {
   display: flex;
@@ -45,7 +45,7 @@ h1 {
   font-weight: 700;
 }
 h1 span {
-  color: var(--main-color);
+  color: var(--magenta);
   font-weight: 700;
 }
 h2 {

@@ -1,44 +1,55 @@
+<template>
+  <footer>
+    <div class="left__bar"></div>
+    <div class="footer-content">
+      <div class="logos-container">
+        <a href="https://github.com/perezrei" target="blank">
+          <img
+            class="social-logo"
+            src="../assets/github-logo.svg"
+            alt="github-logo"/>
+        </a>
+        <a href="https://www.linkedin.com/in/perezrei/" target="blank">
+          <img
+            class="social-logo"
+            src="../assets/linkedin-logo.svg"
+            alt="linkedin-logo"/>
+        </a>
+      </div>
+      <p class="footer__text">Reinaldo Perez | © 2022 All Rights Reserved</p>
+    </div>
+  </footer>
+</template>
+
 <script>
 export default {
   name: "FooterSection",
 };
 </script>
 
-<template>
-  <div class="footer__container">
-    <div class="left__bar"></div>
-    <div class="footer-content">
-      <div class="logos-container">
-        <a href="https://github.com/perezrei" target="blank" ><img class="social-logo" src="../assets/github-logo.svg" alt="github-logo"/></a> 
-        <a href="https://www.linkedin.com/in/perezrei/" target="blank"><img class="social-logo" src="../assets/linkedin-logo.svg" alt="linkedin-logo"/></a>
-      </div>
-      <p class="footer__text">Reinaldo Perez | © 2022 All Rights Reserved</p>
-    </div>
-  </div>
-</template>
-
 <style scoped>
-.footer__container {
+footer {
   display: flex;
   height: 120px;
   background-color: var(--light-grey);
+  position: fix;
 }
-  .left__bar {
-    width: 5px;
-    height: 100%;
-    background-color: var(--magenta);
-  }
+.left__bar {
+  width: 5px;
+  height: 100%;
+  background-color: var(--magenta);
+}
 .footer-content {
   width: 100%;
 }
 .logos-container {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   height: 80%;
 }
 .social-logo {
-  margin-top:15px;
+  margin-top: 15px;
   padding: 5px 45px;
   width: 140px;
 }

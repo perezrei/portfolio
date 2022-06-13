@@ -1,45 +1,45 @@
 <template>
   <div class="portfolio__container" id="my-work">
-    <div class="left__bar"></div> 
+    <div class="left__bar"></div>
     <div class="content">
       <div class="title">
-          <h2>{{ title }}</h2>
-          <div class="under-line"></div>
+        <h2>{{ title }}</h2>
+        <div class="under-line"></div>
       </div>
       <h4>{{ subtitle }}</h4>
       <div class="projects__container">
-        <ProjectComponent/> 
-      </div> 
-    </div> 
+        <ProjectComponent />
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import ProjectComponent from './ProjectComponent.vue';
+import ProjectComponent from "./ProjectComponent.vue";
 
 export default {
-  name: 'PortfolioSection',
+  name: "PortfolioSection",
   components: {
-    ProjectComponent
+    ProjectComponent,
   },
   data() {
     return {
       title: "My Work",
-      subtitle: "These are some of the projects that I’ve been working on."
-    }
-  }
-}
+      subtitle: "These are some of the projects that I’ve been working on.",
+    };
+  },
+};
 </script>
 
 <style scoped>
 .portfolio__container {
   display: flex;
 }
-  .left__bar {
-    width: 5px;
-    height: auto;
-    background-color: var(--magenta);
-  }
+.left__bar {
+  width: 5px;
+  height: auto;
+  background-color: var(--magenta);
+}
 .content {
   width: 95%;
   margin: 30px auto 0 auto;

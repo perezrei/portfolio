@@ -10,7 +10,10 @@
       </ul>
     </nav>
 
-    <div id="hamburger-icon" :class="{ open: classOpen }" @click="toggleMobileMenu">
+    <div
+      id="hamburger-icon"
+      :class="{ open: classOpen }"
+      @click="toggleMobileMenu">
       <div class="bar1"></div>
       <div class="bar2"></div>
       <div class="bar3"></div>
@@ -30,15 +33,15 @@ export default {
   name: "HeaderSection",
   data() {
     return {
-      classOpen: false
-    }
-  },  
+      classOpen: false,
+    };
+  },
   methods: {
     toggleMobileMenu() {
-      this.classOpen = !this.classOpen
-    }
-  }  
-}  
+      this.classOpen = !this.classOpen;
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -121,9 +124,9 @@ ul li:hover {
   transform: rotate(45deg) translate(-6px, -8px);
 }
 
-  .mobile-menu {
+.mobile-menu {
   display: none;
-  }
+}
 
 .open .mobile-menu {
   height: 100vh;
@@ -136,7 +139,7 @@ ul li:hover {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items:initial;
+  align-items: initial;
   transition: 0.5s;
 }
 

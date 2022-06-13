@@ -1,9 +1,3 @@
-<script>
-export default {
-  name: "BannerSection",
-};
-</script>
-
 <template>
   <div class="banner__container" id="home">
     <div class="left__bar"></div>
@@ -16,12 +10,18 @@ export default {
           ><img
             class="button"
             src="./../assets/caret-forward-circle.svg"
-            alt="icon"
-        /></a>
+            alt="icon"/>
+        </a>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "BannerSection",
+};
+</script>
 
 <style scoped>
 .left__bar {

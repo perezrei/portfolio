@@ -32,7 +32,7 @@ footer {
   display: flex;
   height: 120px;
   background-color: var(--light-grey);
-  position: fix;
+  /* position: fixed; */
 }
 .left__bar {
   width: 5px;
@@ -51,7 +51,7 @@ footer {
 .social-logo {
   margin-top: 15px;
   padding: 5px 45px;
-  width: 140px;
+  width: 130px;
 }
 .footer__text {
   font-size: 9px;

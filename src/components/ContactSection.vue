@@ -10,13 +10,12 @@
         Have a question or want to work together? <br />
         Leave me a message
       </h4>
-      <form
+      <div
         class="contact__form"
         action="https://formsubmit.co/perezreideveloper@gmail.com"
-        method="POST">
-        <!-- <input type="hidden" name="_next" value="https://perezrei.github.io/thanks.html">      -->
-        <input type="hidden" name="_template" value="table"
-        />
+        method="POST"
+      >
+        <input type="hidden" name="_template" value="table" />
         <input
           class="name__input"
           type="text"
@@ -38,10 +37,11 @@
           name="message"
           id=""
           cols="30"
-          rows="10">
+          rows="10"
+        >
         </textarea>
         <button class="submit__btn" type="submit">Send</button>
-      </form>
+      </div>
     </div>
   </div>
 </template>
@@ -56,7 +56,7 @@ export default {
 .contact__container {
   display: flex;
   width: 100%;
-  height: 100vh;
+  height: 700px;
   background-color: var(--dark-blue);
 }
 .left__bar {
@@ -66,7 +66,7 @@ export default {
 }
 .contact__content {
   width: 100%;
-  margin: 30px auto 0 auto;
+  margin: 30px auto 30px auto;
 }
 .title {
   width: fit-content;

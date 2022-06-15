@@ -48,23 +48,28 @@ export default {
   padding: 25px;
   margin-bottom: 50px;
 }
+
 .project__component-container:hover {
   background-color: var(--dark-grey);
 }
+
 h4 {
   padding-bottom: 10px;
   font-weight: 500;
 }
+
 p {
   font-size: 13px;
   font-weight: 300;
   padding-bottom: 5px;
 }
+
 .buttons__container {
   display: flex;
   justify-content: space-evenly;
   padding-top: 25px;
 }
+
 .github__btn,
 .website__btn {
   background-color: var(--magenta);
@@ -77,6 +82,7 @@ p {
   border-radius: 4px;
   cursor: pointer;
 }
+
 .github__btn:hover,
 .website__btn:hover {
   background-color: #c20d0db4;

@@ -1,19 +1,19 @@
 <script setup>
-  import HeaderSection from './components/HeaderSection.vue';
-  import BannerSection from './components/BannerSection.vue';
-  import AboutSection from './components/AboutSection.vue';
-  import PortfolioSection from './components/PortfolioSection.vue';
-  import ContactSection from './components/ContactSection.vue';
-  import FooterSection from './components/FooterSection.vue';
+import HeaderSection from './components/HeaderSection.vue';
+import BannerSection from './components/BannerSection.vue';
+import AboutSection from './components/AboutSection.vue';
+import PortfolioSection from './components/PortfolioSection.vue';
+import ContactSection from './components/ContactSection.vue';
+import FooterSection from './components/FooterSection.vue';
 </script>
 
 <template>
-  <HeaderSection/>
-  <BannerSection/>
-  <AboutSection/>
-  <PortfolioSection/>
-  <ContactSection/>
-  <FooterSection/>
+  <HeaderSection />
+  <BannerSection />
+  <AboutSection />
+  <PortfolioSection />
+  <ContactSection />
+  <FooterSection />
 </template>
 
 <style>

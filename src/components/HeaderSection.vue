@@ -10,10 +10,7 @@
       </ul>
     </nav>
 
-    <div
-      id="hamburger-icon"
-      :class="{ open: classOpen }"
-      @click="toggleMobileMenu">
+    <div id="hamburger-icon" :class="{ open: classOpen }" @click="toggleMobileMenu">
       <div class="bar1"></div>
       <div class="bar2"></div>
       <div class="bar3"></div>
@@ -147,6 +144,7 @@ ul li:hover {
   padding-top: 50px;
   font-size: 18px;
 }
+
 .bottom-line {
   height: 5px;
   width: 100%;

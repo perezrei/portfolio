@@ -71,7 +71,7 @@ h2 {
   right: -51px;
 }
 h4 {
-  width: 55%;
+  width: 75%;
   margin: auto;
   text-align: center;
   font-weight: 500;

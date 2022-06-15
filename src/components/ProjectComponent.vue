@@ -62,7 +62,7 @@ p {
 }
 .buttons__container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   padding-top: 25px;
 }
 .github__btn,
@@ -74,7 +74,6 @@ p {
   font-weight: 500;
   width: 80px;
   padding: 7px 15px;
-  margin-right: 20px;
   border-radius: 4px;
   cursor: pointer;
 }

@@ -32,7 +32,6 @@ footer {
   display: flex;
   height: 120px;
   background-color: var(--light-grey);
-  /* position: fixed; */
 }
 .left__bar {
   width: 5px;

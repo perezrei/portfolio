@@ -62,19 +62,20 @@ h2 {
   height: 5px;
   margin: auto;
   font-size: 1.8em;
+  text-decoration: underline var(--magenta) 6px; 
   text-align: center;
   font-weight: 700;
   padding-bottom: 50px;
 }
 
-.under-line {
+/* .under-line {
   height: 6px;
   width: 90px;
   background-color: var(--magenta);
   position: relative;
   top: -18px;
   right: -51px;
-}
+} */
 
 h4 {
   width: 75%;

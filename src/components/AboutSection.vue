@@ -64,6 +64,9 @@ h2 {
   text-align: center;
   font-weight: 700;
   padding-bottom: 50px;
+}
+
+h2::first-letter {
   text-decoration: underline var(--magenta) 6px; 
 }
 

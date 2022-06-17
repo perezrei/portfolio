@@ -85,7 +85,8 @@ p {
 
 .github__btn:hover,
 .website__btn:hover {
-  background-color: #c20d0db4;
+  --magenta: #c20d0db4;
+  background-color: var(--magenta);
   transition: background-color 0.2s;
 }
 </style>

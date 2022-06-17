@@ -81,7 +81,7 @@ ul a {
 }
 
 ul li {
-  padding: 5px;
+  padding: 5px 5px 0 5px;
   font-size: 14px;
   font-weight: 500;
   margin-left: 50px;

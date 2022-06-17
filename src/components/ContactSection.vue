@@ -4,7 +4,6 @@
     <div class="contact__content">
       <div class="title">
         <h2>Contact</h2>
-        <div class="under-line"></div>
       </div>
       <h4>
         Have a question or want to work together? <br />
@@ -61,15 +60,7 @@ h2 {
   text-align: center;
   font-weight: 700;
   padding-bottom: 50px;
-}
-
-.under-line {
-  height: 6px;
-  width: 90px;
-  background-color: var(--magenta);
-  position: relative;
-  top: -18px;
-  right: -32px;
+  text-decoration: underline var(--magenta) 6px;
 }
 
 h4 {
